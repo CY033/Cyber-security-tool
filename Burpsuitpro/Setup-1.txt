@@ -1,0 +1,21 @@
+|---------------------|
+|  Burpsuit pro       |
+|---------------------|
+
+
+
+Step 1 
+  (i) download Burpsuit pro folder  and extract it 
+  (ii) Download jdk 8 version 
+  (iii) give executable permission 
+             chmod +x openlogic-openjdk-8u412-b08-linux-x64-deb.deb
+
+   (iv) sudo dpkg -i openlogic-openjdk-8u412-b08-linux-x64-deb.deb
+
+
+   (v) sudo update-alternatives --config java 
+      select java jdk 8 version 
+   
+   (vi) cd Burpsuite and give executable permission 
+  (vii) chmod +x *
+ (viii) java -jar ESEdition.jar
